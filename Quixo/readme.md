@@ -8,7 +8,7 @@ Given the very large number of states of the game (ca. 3^23) Monte Carlo Tree Se
 
 ### Agent_MCTS
 
-Here, a simple but effective MCTS strategy is implemented, representing game states as node of a tree where the moving root is the current state of the game while the children of a node are the states reachable in one move.
+Here, a simple but effective MCTS strategy is implemented taking inspiration from [https://www.youtube.com/watch?v=EB-NJtNERBQ], representing game states as node of a tree where the moving root is the current state of the game while the children of a node are the states reachable in one move.
 
 #### Node data structure
 
